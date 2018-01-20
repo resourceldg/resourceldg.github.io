@@ -1,6 +1,11 @@
 body {
-	font-family: 'Lobster', cursive;
+	font-family: 'Cairo', sans-serif;
+	
+}
+.navbar-brand{
 
+    font-family: 'Great Vibes', cursive;
+    }
 p{
   color:#525252;
   font-size:12px;
