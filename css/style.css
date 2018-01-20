@@ -49,7 +49,7 @@ h1 a.navbar-brand {
     margin: 10px 0;
     text-transform: capitalize;
 }
-h2 a.navbar-brand {
+h2 p.navbar-brand {
     font-family: 'Open Sans', sans-serif
     font-size: 55px;
 }
