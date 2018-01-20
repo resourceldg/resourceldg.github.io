@@ -50,7 +50,7 @@ h1 a.navbar-brand {
     text-transform: capitalize;
 }
 h2 p.navbar-brand {
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Abril Fatface', cursive;
     color: blue;
     font-size: 55px;
     text-transform: uppercase;
