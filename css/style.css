@@ -68,7 +68,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	transition:.5s all;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #163cfc;
     font-size: 1em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -110,7 +110,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #FFF;
-    background-color:  #dae0fb;
+    background-color:  #fff;
 }
 .navbar-default .navbar-nav > li>a:hover {
     color: #fff;
