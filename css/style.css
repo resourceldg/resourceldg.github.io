@@ -380,13 +380,13 @@ a.w3_agile_vimeo:hover{
 	color:#212121;
 }
 .w3l_contact, .w3ls_more:hover {
-    border: 2px solid #11b563;
+    border: 3px solid #11b563;
     color: #ffffff !important;
 
 
 }
 .w3ls_more, .w3l_contact:hover {
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     background: none;
     color: #ffffff !important;
     background:#11b563;
