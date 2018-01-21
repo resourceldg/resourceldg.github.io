@@ -388,7 +388,7 @@ a.w3_agile_vimeo:hover{
     border: 2px solid #11b563;
     background: none;
     color: #ffffff !important;
-    background-position:left;
+    background-position:right;
 }
 .w3ls_more:focus{
 	outline:none;
