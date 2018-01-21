@@ -114,7 +114,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > li>a:hover {
     color: #fff;
-    border-color: #33beff;
+
 }
 nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     padding: 1em 10em;
@@ -393,7 +393,8 @@ a.w3_agile_vimeo:hover{
 
 }
 .w3ls_more:focus{
-	outline:color;
+	outline:none;
+	background:#163cfc;
 }
 span.char3 {
     text-transform: initial;
