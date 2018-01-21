@@ -110,7 +110,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #FFF;
-    background-color: transparent;
+    border-color: 2px solid#163cfc;
 }
 .navbar-default .navbar-nav > li>a:hover {
     color: #fff;
