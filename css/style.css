@@ -360,7 +360,7 @@ a.w3_agile_vimeo:hover{
     font-size: 3em;
     color: #ffffff;
     line-height: 1.1em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
     text-shadow: 3px 3px #163cfc;
 }
