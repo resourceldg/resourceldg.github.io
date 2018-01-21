@@ -380,7 +380,7 @@ a.w3_agile_vimeo:hover{
 	color:#212121;
 }
 .w3l_contact, .w3ls_more:hover {
-    border: 3px solid #11b563;
+    border: 3px solid#163cfc;
     color: #ffffff !important;
 
 
@@ -389,7 +389,7 @@ a.w3_agile_vimeo:hover{
     border: 3px solid #fff;
     background: none;
     color: #ffffff !important;
-    background:#11b563;
+    background:#fff;
 
 }
 .w3ls_more:focus{
