@@ -534,12 +534,13 @@ b, strong {
     padding: 0 0 0 5em;
 }
 .about-left h3 {
+    font-family: 'Great Vibes', cursive;
     text-align: left;
     font-size: 50px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 50px;
     outline-offset: 12px;
-    outline: 7px double #ff4f81;
+    outline: 7px double #163cfc;
     outline-offset: 6px;
     width: 22%;
 	color: #146eb4;
