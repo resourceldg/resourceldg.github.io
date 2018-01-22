@@ -533,21 +533,7 @@ b, strong {
 .about-left {
     padding: 0 0 0 5em;
 }
-.about-left h3 {
-    font-family: 'Great Vibes', cursive;
-    text-align: left;
-    font-size: 50px;
-    text-transform: capitalize;
-    margin-bottom: 50px;
-    outline-offset: 12px;
-    outline: 7px double #163cfc;
-    outline-offset: 6px;
-    width: 22%;
-    color: #163cfc;
-    margin-left: 0.3em;
-    font-weight: 700;
-    text-align: center;
-}
+
 .about-left img {
     width: 25%;
 }
@@ -1149,7 +1135,7 @@ ul.top-links li a i.fa:hover {
 }
 ul.top-links {
     margin-top: 3em;
-    position: center;
+
 }
 .contact-right {
     margin-top: 2em;
