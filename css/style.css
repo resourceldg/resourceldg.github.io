@@ -1209,7 +1209,6 @@ ul.top-links li a i.fa {
     height: 40px;
     line-height: 20px;
     text-align: center;
-    position: center;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -1234,6 +1233,7 @@ ul.top-links li a i.fa:hover {
 }
 ul.top-links {
     margin-top: 3em;
+    position: center;
 }
 .contact-right {
     margin-top: 2em;
