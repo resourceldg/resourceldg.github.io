@@ -1197,7 +1197,7 @@ span.glyphicon:hover {
     padding: 10px 40px;
 }
 ul.top-links li {
-    display: block;
+    display: inline;
     margin: 0 .3em;
 }
 ul.top-links li a i.fa {
