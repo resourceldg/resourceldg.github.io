@@ -1271,7 +1271,7 @@ iframe {
 		font-size: 177px;
 	}
 	.skills, .contact, .education, .about, .portfolio {
-		padding: 3em 0;
+		padding: 4em 0;
 	}
 }
 @media screen and (max-width: 1080px){
