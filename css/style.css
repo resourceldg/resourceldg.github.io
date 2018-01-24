@@ -752,11 +752,9 @@ b, strong {
     border-right: 1px solid #163cfc;
 }
 .last {
-    width: 70%;
-    float: left;
-    padding: 2em 2em;
+
     border-top: 1px solid #163cfc;
-    border-right: 1px solid #163cfc;
+
 }
 .education-agile-w3l-year h4,.education-agile-w3l-info  h4 {
     font-size: 25px;
