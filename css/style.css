@@ -740,7 +740,7 @@ b, strong {
 .education-agile-w3l-year {
     width: 30%;
     float: left;
-    border: 1px solid #11b563;
+    border: 1px solid #163cfc;
     border-bottom: transparent;
     padding: 4.64em 2em;
 }
@@ -1271,7 +1271,7 @@ iframe {
 		font-size: 177px;
 	}
 	.skills, .contact, .education, .about, .portfolio {
-		padding: 3em 0;
+		padding: 4em 0;
 	}
 }
 @media screen and (max-width: 1080px){
