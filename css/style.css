@@ -748,11 +748,12 @@ b, strong {
     width: 70%;
     float: left;
     padding: 2em 2em;
-
+    border-top: 1px solid #163cfc;
+    border-right: 1px solid #163cfc;
+}
 .last {
 
-
-
+    border-bottom: 1px solid #11b563;
 }
 .education-agile-w3l-year h4,.education-agile-w3l-info  h4 {
     font-size: 25px;
@@ -786,7 +787,7 @@ i.fa.fa-hourglass-end {
 .middle {
     text-align: center;
 }
-/* education */
+/* //education */
 
 /*-- Portfolio --*/
 
