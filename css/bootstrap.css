@@ -1294,6 +1294,10 @@ h6,
 }
 p {
   margin: 0 0 10px;
+
+}
+p.education {
+  margin: 0 0 10px;
   text-align:center;
 }
 .lead {
