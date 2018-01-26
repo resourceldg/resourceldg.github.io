@@ -773,6 +773,7 @@ b, strong {
 }
 h3.w3l_head.three {
     font-size: 40px;
+    float:center;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
