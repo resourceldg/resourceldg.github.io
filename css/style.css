@@ -636,7 +636,7 @@ b, strong {
 
 /* Skills */
 .skills,.contact,.education,.about,.portfolio{
-	padding:5em 0;
+	padding:10em 0;
 }
 .skill-grids-right {
     margin-top: 1em;
@@ -1242,7 +1242,7 @@ iframe {
 		font-size: 177px;
 	}
 	.skills, .contact, .education, .about, .portfolio {
-		padding: 3em 0;
+		padding: 10em 0;
 	}
 }
 @media screen and (max-width: 1080px){
