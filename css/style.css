@@ -401,6 +401,7 @@ span.char3 {
 }
 .w3_banner_info_grid p {
     margin: 1.5em 0 3em;
+    text-align:justify;
     color: #fff;
     line-height: 28px;
     letter-spacing: 1px;
