@@ -680,7 +680,10 @@ b, strong {
 .skillgrid1 h3.h33 {
     background: #ff4f81;
 }
+.education p.p2{
+    text-align:justify;
 
+    }
 	/*-- Progress-Bar --*/
 
 	#about-us .lead {
