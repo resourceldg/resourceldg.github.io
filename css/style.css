@@ -9,6 +9,7 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
 	margin: 0;
+	padding-top:55px;
 }
 p,ul li,ol li{
 	margin:0;
