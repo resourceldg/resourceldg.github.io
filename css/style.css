@@ -526,6 +526,7 @@ b, strong {
 }
 .about-left p {
     line-height: 28px;
+    text-align:justify;
     letter-spacing: .5px;
     font-size: 14px;
     margin: 1em 0;
