@@ -680,10 +680,7 @@ b, strong {
 .skillgrid1 h3.h33 {
     background: #ff4f81;
 }
-.education p.p2{
-    text-align:justify;
 
-    }
 	/*-- Progress-Bar --*/
 
 	#about-us .lead {
@@ -743,40 +740,8 @@ b, strong {
 /* //Skills */
 
 /* education */
-.education-agile-w3l-year {
-    width: 30%;
-    float: left;
-    border: 1px solid #163cfc;
-    border-bottom: transparent;
-    padding: 4.64em 2em;
-}
-.education-agile-w3l-info {
-    width: 70%;
-    float: left;
-    padding: 2em 2em;
-    border-top: 1px solid #163cfc;
-    border-right: 1px solid #163cfc;
-}
-.last {
 
-    border-bottom: 1px solid #163cfc;
-}
-.education-agile-w3l-year h4,.education-agile-w3l-info  h4 {
-    font-size: 25px;
-    color: #2f2f2f;
-}
-.education-agile-w3l-year h6,.education-agile-w3l-info  h6 {
-    font-size: 13px;
-    letter-spacing: 2px;
-    color: #ff4f81;
-}
-.education-agile-w3l-info  p {
-    line-height: 28px;
-    font-size: 14px;
-    letter-spacing: .5px;
-    margin-top: 1em;
-	color:#515151;
-}
+
 h3.w3l_head.three {
     font-size: 40px;
     text-align:center;
