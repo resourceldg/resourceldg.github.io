@@ -136,7 +136,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 770px;
-    position: relative;
+    position: left;
 }
 .agileinfo-dot {
     background: url(../images/dott.png)repeat 0px 0px;
