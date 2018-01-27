@@ -650,6 +650,7 @@ b, strong {
 }
 .skills p.p1 {
     font-size: 14px;
+    text-align:justify;
     line-height: 28px;
     margin: 3em 0 0em;
     color: #353535;
