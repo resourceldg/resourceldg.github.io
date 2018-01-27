@@ -752,14 +752,9 @@ h3.w3l_head.three {
     color: #000;
     margin-bottom: .5em;
 }
-i.fa.fa-hourglass-end {
-    font-size: 210px;
-    margin-top: 2em;
-    color: #163cfc;
-}
-.middle {
-    text-align: center;
-}
+p.w3l_head.three {
+    text-align:justify;
+    }
 /* //education */
 
 /*-- Portfolio --*/
