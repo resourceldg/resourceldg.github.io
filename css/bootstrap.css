@@ -1092,6 +1092,10 @@ body {
   color: #ede6e6;
   background-color: #fff;
 }
+
+.w3_banner_info_frid h3{
+    color: #000;
+    }
 input,
 button,
 select,
