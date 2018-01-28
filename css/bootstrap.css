@@ -1089,12 +1089,12 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #ede6e6;
+  color: #000;
   background-color: #fff;
 }
 
-.w3_banner_info_frid h3{
-    color: #000;
+.w3_banner_info_grid h3{
+    color: #ede6e6;
     }
 input,
 button,
