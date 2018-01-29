@@ -475,19 +475,7 @@ ul.address li ul.agileits-address-text li {
 .modal .about {
     border-top: 1px solid;
 }
-.social-icons i.fa {
-    font-size: 17px;
-    padding: 9px;
-    background: #5a5a5a;
-    color: #fff;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    margin: 15px 5px;
-    text-align: center;
-    line-height: 20px;
-    position:center;
-}
+
 .modal a{
     color: #000;
     letter-spacing: 2px;
