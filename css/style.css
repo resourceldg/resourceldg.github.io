@@ -486,6 +486,7 @@ ul.address li ul.agileits-address-text li {
     margin: 15px 5px;
     text-align: center;
     line-height: 20px;
+    position:center;
 }
 .modal a{
     color: #000;
