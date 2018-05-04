@@ -433,7 +433,7 @@ a.w3l_head.three {
 @media screen and (max-width: 600px){
     .cert img{
         display:none;
-        padding-left:5px;
+        margin-left:5px;
         }
 
     }
