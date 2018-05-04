@@ -398,12 +398,7 @@ a.w3_agile_vimeo:hover{
 
     }
 
-@media screen and (min-width: 768px) {
 
-    .social-btns li a{
-        font-size:35px;
-        }
-}
 
 .w3ls_more:focus{
 	outline:none;
