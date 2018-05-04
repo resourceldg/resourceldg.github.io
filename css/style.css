@@ -1079,7 +1079,7 @@ ul.top-links li a i.fa {
     -ms-transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     .cert img{
         display:none;
         }
