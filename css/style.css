@@ -390,6 +390,19 @@ a.w3_agile_vimeo:hover{
 
 
 }
+.social-btns{
+
+   font-size:25px;
+   text-align:center;
+   color:#ebf553;
+
+    }
+
+@media (min-width: 768px) {
+
+    .social-btns{font-size:45px;}
+}
+
 .w3ls_more:focus{
 	outline:none;
 	background:#163cfc;
