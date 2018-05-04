@@ -1057,6 +1057,10 @@ p.w3l_head.three {
 /*-- //Portfolio --*/
 
 /* contact */
+ul.top-links li a{
+
+    text-align:center;
+}
 
 ul.top-links li {
     display: inline;
@@ -1070,7 +1074,7 @@ ul.top-links li a i.fa {
     width: 40px;
     height: 40px;
     line-height: 20px;
-    text-align: center;
+
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -1080,12 +1084,14 @@ ul.top-links li a i.fa {
 ul.top-links li a i.fa:hover {
     background: #dedede;
     color: #000;
+
 }
 .top-links i.fa.fa-facebook {
     background: #3b5998;
 }
 .top-links i.fa.fa-twitter {
     background: #0087da;
+
 }
 .top-links i.fa.fa-google-plus {
     background: #dd4b39;
