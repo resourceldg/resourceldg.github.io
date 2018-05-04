@@ -33,7 +33,8 @@ body a:hover{
 
 .w3_banner_info_grid p {
 		font-weight:bold;
-		text-shadow: -5px -5px 5px #aaa;
+		text-shadow: 5px 5px 5px #01030b;
+		text-align:center;
 }
 img{
 	width:100%;
