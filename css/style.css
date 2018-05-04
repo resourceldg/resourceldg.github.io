@@ -146,8 +146,15 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .social-btns li a{
 
    font-size:35px;
-     align:center;
+     float:center;
       color: #5388f5;
+
+    }
+.social-btns{
+
+
+     text-align:center;
+
 
     }
 
