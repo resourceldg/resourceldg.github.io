@@ -387,6 +387,13 @@ h3.w3l_head.three {
     color: #000;
     margin-bottom: .5em;
 }
+
+h4.w3l_head.three {
+    text-align:center;
+    }
+li,a.w3l_head.three {
+    text-align:center;
+    }
 /* //education */
 
 /*-- Portfolio --*/
@@ -478,6 +485,7 @@ h3.w3l_head.three {
 	h3.w3l_head.three {
 		font-size: 30px;
 		letter-spacing: 1px;
+		
 	}
 	.about h3, .skills h3 {
 		font-size: 35px;
@@ -708,3 +716,7 @@ h3.w3l_head.three {
 		margin: 1.5em 0 .5em;
 	}
 }
+
+.contact h4{
+    text-align:center;
+    }
