@@ -390,9 +390,9 @@ a.w3_agile_vimeo:hover{
 
 
 }
-.social-btns{
+.social-btns li a{
 
-   font-size:45px;
+   font-size:25px;
 
    color:#ebf553;
 
@@ -400,7 +400,7 @@ a.w3_agile_vimeo:hover{
 
 @media screen and (min-width: 768px) {
 
-    .social-btns{
+    .social-btns li a{
         font-size:45px;
         }
 }
