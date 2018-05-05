@@ -437,6 +437,12 @@ a.w3l_head.three {
         }
 
     }
+
+@media screen and (min-width: 600px){
+   .cert img{ width: 70%;
+    height: auto;
+    }
+    }
 /* //contact */
 
 /* iframe */
@@ -449,6 +455,7 @@ a.w3l_head.three {
 /*-- //to-top --*/
 
 /* Responsive design */
+
 @media screen and (max-width: 1440px){
 	.about-left h3 {
 		width: 24%;
