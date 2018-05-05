@@ -86,7 +86,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/analitics.jpeg) no-repeat 0px 0px;
+	background: url(../images/analitics-min.jpeg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -439,7 +439,8 @@ a.w3l_head.three {
     }
 
 
-   .cert img{ width: 100%;
+ .cert img{
+     width: 100%;
     height: auto;
     }
 
