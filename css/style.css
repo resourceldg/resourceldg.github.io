@@ -9,16 +9,18 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
 	margin: 0;
-	
+
 }
 p,ul li{
 	margin:0;
 	font-size:15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 h2,h3,h4{
 	margin:0;
 	font-family: 'Cairo', sans-serif;
-	
+
 }
 h1{
      font-family: 'Great Vibes', cursive;
@@ -86,7 +88,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/analitics-min.jpeg) no-repeat 0px 0px;
+	background: url(../images/a-min2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,7 +98,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     position:relative;
 }
 .agileinfo-dot {
-    background: url(../images/dott.png)repeat 0px 0px;
+
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -113,6 +115,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     margin: 13em 0 0em;
     width: 450px;
     padding: 10px;
+
 }
 .w3_banner_info_grid h2 {
     font-family: 'Russo One', sans-serif;
@@ -121,7 +124,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     line-height: 1.1em;
     text-transform: capitalize;
     font-weight: 200;
-    text-shadow: 3px 3px #163cfc;
+    text-shadow: 3px 3px #42aad1;
 }
 .w3_banner_info_grid ul li{
 	display:inline-block;
@@ -133,15 +136,16 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	color:#212121;
 }
 .w3ls_more:hover {
-    border: 3px solid#163cfc;
-    color: #ffffff !important;
 
+
+    background: #25deed;
 
 }
 .w3ls_more {
-    border: 3px solid #fff;
-    background: #163cfc;
-    color: #ffffff !important;
+    border: 3px solid #25deed;
+    background: #fff;
+    color:#333;
+    font-weight: bold;
 
 
 }
@@ -164,11 +168,11 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .w3ls_more:focus{
 	outline:none;
-	background:#163cfc;
+	background:#42aad1;
 }
 .w3_banner_info_grid p {
     margin: 1.5em 0 3em;
-    text-align:justify;
+    text-align:left;
     color: #fff;
     line-height: 28px;
     letter-spacing: 1px;
@@ -243,7 +247,7 @@ ul.address li ul.agileits-address-text li {
 }
 b {
     font-weight: bold;
-    color: #163cfc;
+    color: #42aad1;
 }
 .about-modal.wthree {
     padding: 2em 4em;
@@ -256,8 +260,7 @@ b {
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
-    color: #000;
-    text-transform: uppercase;
+    color: #6d9bf9;
     font-weight: bold;
 	letter-spacing:2px;
 }
@@ -284,16 +287,25 @@ b {
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	transition:.5s all;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.container {
+
+  display:flex;
+  align-items: center
 }
 /* agile-caption Common Style */
 .boxw3-agile .agile-caption {
 	position: absolute;
-	color: #fff;
+	color: #000;
 	z-index: 100;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;	
+	-ms-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
 	left:-100%;
 	top:0;
@@ -309,15 +321,14 @@ b {
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;	
+	-ms-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
 }
 .boxw3-agile .agile-caption h3 {
     font-size: 30px;
-    text-transform: uppercase;
     margin: 0 auto 0.5em;
-    font-weight: 600;
-    color: #163cfc;
+    font-weight: 700;
+    color: #fff;
 }
 .boxw3-agile .agile-caption p {
     line-height: 2em;
@@ -328,7 +339,7 @@ b {
 	-webkit-transition-delay: 300ms;
 	-moz-transition-delay: 300ms;
 	-o-transition-delay: 300ms;
-	-ms-transition-delay: 300ms;	
+	-ms-transition-delay: 300ms;
 	transition-delay: 300ms;
 }
 
@@ -336,13 +347,13 @@ b {
 	-webkit-transition-delay: 500ms;
 	-moz-transition-delay: 500ms;
 	-o-transition-delay: 500ms;
-	-ms-transition-delay: 500ms;	
+	-ms-transition-delay: 500ms;
 	transition-delay: 500ms;
 }
 /** Fade agile-caption :hover Behaviour **/
 .boxw3-agile:hover .agile-caption {
 	opacity: 1;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.85);
 	left:0;
 }
 /** Scale agile-caption :hover Behaviour **/
@@ -373,7 +384,6 @@ b {
     font-size: 14px;
     text-align:justify;
     line-height: 28px;
-    margin: 3em 0 0em;
     color: #353535;
     letter-spacing: .5px;
 }
@@ -381,7 +391,7 @@ b {
 	/*-- Progress-Bar --*/
 
 	/*-- //Progress-Bar --*/
-	
+
 /* //Skills */
 
 /* //education */
@@ -390,10 +400,9 @@ b {
 h3.w3l_head.three {
     font-size: 40px;
     text-align:center;
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #000;
+    color: #6d9bf9;
     margin-bottom: .5em;
 }
 
@@ -414,7 +423,7 @@ a.w3l_head.three {
 		/*-- //Tabs-Content --*/
 
 		/*-- Fallback --*/
-		
+
 		/*-- //Fallback --*/
 
 		/*-- Tabs-Styling --*/
@@ -429,15 +438,24 @@ a.w3l_head.three {
 /*-- //Portfolio --*/
 
 /* contact */
+@media screen and (max-width: 1200px){
+  .container{
+    flex-wrap: wrap;
+  }
+}
 
 @media screen and (max-width: 600px){
     .cert img{
         display:none;
         margin-left:5px;
+
         }
-
+   .w3_banner_info {
+       background-color: #42aad1;
     }
-
+    .about-modal.wthree {
+        padding: 0em 0em;
+    }
 
  .cert img{
      width: 100%;
@@ -503,7 +521,7 @@ a.w3l_head.three {
 	h3.w3l_head.three {
 		font-size: 30px;
 		letter-spacing: 1px;
-		
+
 	}
 	.about h3, .skills h3 {
 		font-size: 35px;
@@ -532,7 +550,7 @@ a.w3l_head.three {
 		font-size: 2.5em;
 	}
 	.about-right {
-		width: 50%;	
+		width: 50%;
 		margin: 0 auto;
 	}
 	.boxw3-agile {
@@ -555,7 +573,7 @@ a.w3l_head.three {
 	nav.navbar.navbar-default.navbar-fixed-top {
 		padding: .6em 2em;
 	}
-	
+
 }
 @media screen and (max-width: 768px){
 	h1 a.navbar-brand {
@@ -591,7 +609,7 @@ a.w3l_head.three {
 	}
 	.w3_banner_info {
 		margin: 9em 0 0em;
-	}		
+	}
 	.banner, .agileinfo-dot {
 		min-height: 570px;
 	}
@@ -599,7 +617,7 @@ a.w3l_head.three {
 @media screen and (max-width: 667px){
 	.w3_banner_info {
 		margin: 8em 0 0em;
-	}		
+	}
 	.banner, .agileinfo-dot {
 		min-height: 550px;
 	}
