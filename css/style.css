@@ -9,6 +9,7 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
 	margin: 0;
+  padding: 0;
 
 }
 p,ul li{
@@ -32,6 +33,9 @@ ul{
 body a:hover{
 	text-decoration:none;
 }
+.player{
+margin:auto;
+}
 
 .w3_banner_info_grid p {
 		font-weight:bold;
@@ -40,6 +44,7 @@ body a:hover{
 }
 img{
 	width:100%;
+  height: auto;
 }
 
 /*-- header --*/
@@ -88,14 +93,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/a-min2.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 770px;
-    position:relative;
+
 }
 .agileinfo-dot {
 
@@ -295,8 +293,10 @@ b {
 .container {
 
   display:flex;
-  align-items: center
+  align-items: center;
+
 }
+
 /* agile-caption Common Style */
 .boxw3-agile .agile-caption {
 	position: absolute;
@@ -406,6 +406,11 @@ h3.w3l_head.three {
     margin-bottom: .5em;
 }
 
+h5{
+    text-align:center;
+    font-size: 18px;
+    }
+
 h4.w3l_head.three {
     text-align:center;
     }
@@ -446,8 +451,9 @@ a.w3l_head.three {
 
 @media screen and (max-width: 600px){
     .cert img{
-        display:none;
-        margin-left:5px;
+      width: 100%;
+     height: auto;
+
 
         }
    .w3_banner_info {
@@ -457,11 +463,8 @@ a.w3l_head.three {
         padding: 0em 0em;
     }
 
- .cert img{
-     width: 100%;
-    height: auto;
-    }
 
+}
 /* //contact */
 
 /* iframe */
@@ -579,6 +582,47 @@ a.w3l_head.three {
 	h1 a.navbar-brand {
 		font-size: 32px;
 	}
+  .banner, .agileinfo-dot {
+    min-height: 510px;
+    background-color: #42aad1;
+  }
+  .navbar{
+    display: none;
+  }
+
+
+.navmobil ul{
+    list-style: none;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+    .navmobil ul li{
+
+    }
+        .navmobil ul li a{
+            float: left;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+          }
+.navmobil{
+  width: 100%;
+  position:fixed;
+  z-index: 1000;
+  top:0;
+  background-color: #42aad1;
+
+}
+.contact{
+
+margin-bottom: 300px;
+
+}
 }
 @media screen and (max-width: 736px){
 	.navbar-default .navbar-nav > li > a {
@@ -643,7 +687,28 @@ a.w3l_head.three {
 	}
 	.banner, .agileinfo-dot {
 		min-height: 510px;
+    background-color: #42aad1;
 	}
+
+
+}
+
+@media screen and (min-width: 768px){
+	.navmobil{
+    display: none;
+  }
+  .banner{
+
+    background: url(../images/a-min2.jpg) no-repeat 0px 0px;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -ms-background-size: cover;
+      min-height: 770px;
+      position:relative;
+  }
+
 }
 @media screen and (max-width: 568px){
 	.banner, .agileinfo-dot {
@@ -752,7 +817,3 @@ a.w3l_head.three {
 		margin: 1.5em 0 .5em;
 	}
 }
-
-.contact h4{
-    text-align:center;
-    }
